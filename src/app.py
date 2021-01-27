@@ -3,7 +3,11 @@ import os
 
 
 def palindrome(s):
+
     # your code goes here
+
+    return s[::-1] == s
+    
 
 def solution(s):
     return palindrome(s)
